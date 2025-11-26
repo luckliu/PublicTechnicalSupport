@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>奶油日历 · 隐私政策</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="奶油日历隐私政策说明。" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
+      "Microsoft Yahei", system-ui, sans-serif;
+      padding: 24px;
+      max-width: 880px;
+      margin: 0 auto;
+      background: #fff7fb;
+      color: #3c3050;
+      line-height: 1.7;
+    }
+    h1 { font-size: 26px; margin-bottom: 12px; }
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 8px; }
+    p { font-size: 15px; color: #5a5465; }
+    li { font-size: 15px; margin-bottom: 6px; color: #5a5465; }
+    .update { margin-top: 32px; font-size: 14px; color: #7a6f8f; }
+  </style>
+</head>
+<body>
+
+<h1>奶油日历 · 隐私政策</h1>
+
+<p>
+感谢你使用「奶油日历」。本隐私政策旨在说明我们如何处理你的数据，包括收集、使用和保护方式。我们非常重视你的隐私权，并承诺尽最大努力保护你的个人信息。
+</p>
+
+<h2>1. 我们不会收集任何可识别个人身份的信息</h2>
+<p>
+奶油日历是一款面向个人使用的极简日历与海报生成工具。我们不会收集、存储或上传任何可以识别你身份的个人数据，包括但不限于姓名、联系方式、身份证明等。
+</p>
+
+<h2>2. 数据存储全部在你本地设备完成</h2>
+<p>你的所有记录内容——包括每日事件、月度日历和生成的海报图片——均只保存在你的设备本地。</p>
+<p>我们不会：</p>
+<ul>
+  <li>上传你的记录内容；</li>
+  <li>分析你的日程或个人习惯；</li>
+  <li>读取相册以外任何未经允许的内容；</li>
+  <li>向第三方分享你的数据。</li>
+</ul>
+
+<h2>3. 我们可能访问的系统权限</h2>
+<p>为了提供核心功能，奶油日历可能需要以下权限：</p>
+<ul>
+  <li><strong>相册权限（可选）</strong>：用于将生成的月度日历海报保存到你的设备相册。仅在你选择保存时使用。</li>
+  <li><strong>通知权限（可选）</strong>：如果未来版本提供每日提醒，你可选择是否开启。</li>
+</ul>
+<p>权限完全由你控制，你可以随时在系统设置中关闭。</p>
+
+<h2>4. 我们不会追踪你</h2>
+<p>
+我们不使用任何第三方追踪技术，也不使用广告 ID、跟踪 SDK 或行为分析数据。  
+奶油日历不含广告、不投放追踪像素，也不进行跨应用或跨网站追踪。
+</p>
+
+<h2>5. 第三方服务</h2>
+<p>
+当前版本不依赖任何会收集用户信息的第三方服务。若未来加入云备份等功能，我们将提前更新隐私政策并征求你的同意。
+</p>
+
+<h2>6. 儿童隐私保护</h2>
+<p>
+奶油日历适用于所有用户，并不会收集任何年龄相关的信息。我们不会对儿童进行数据收集或分析。
+</p>
+
+<h2>7. 数据安全</h2>
+<p>
+由于所有内容都存储在你的设备中，你的数据安全将由设备系统提供保护（如 iOS 的系统级加密）。
+</p>
+
+<h2>8. 隐私政策的更新</h2>
+<p>
+若我们未来更新应用功能涉及数据变动，我们会同步更新本隐私政策。更新后的条款在发布后立即生效。
+</p>
+
+<h2>9. 联系我们</h2>
+<p>
+如果你对本隐私政策或应用功能有任何疑问，欢迎通过以下方式联系开发者：
+</p>
+
+<p><strong>技术支持邮箱：</strong> <a href="mailto:liuhuohuo123@sina.com">liuhuohuo123@sina.com</a></p>
+
+<p class="update">
+最近更新日期：<span id="date"></span>
+</p>
+
+<script>
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  document.getElementById("date").textContent = `${y}-${m}-${day}`;
+</script>
+
+</body>
+</html>

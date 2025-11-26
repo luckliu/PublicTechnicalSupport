@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>奶油日历 · 技术支持与帮助中心</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="奶油日历技术支持页面，提供常见问题说明与联系方式。" />
+  <style>
+    :root {
+      --bg: #fff7fb;
+      --card: #ffffff;
+      --primary: #f3a9d9;
+      --primary-deep: #e27bc0;
+      --text-main: #3c3050;
+      --text-sub: #7a6f8f;
+      --border-soft: #f0e3f8;
+      --radius: 18px;
+      --shadow-soft: 0 18px 40px rgba(216, 178, 236, 0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
+        "Microsoft Yahei", system-ui, sans-serif;
+      background: radial-gradient(circle at top left, #ffe1f5 0, var(--bg) 40%, #f5ebff 100%);
+      color: var(--text-main);
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--border-soft);
+      color: var(--primary-deep);
+      font-size: 12px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      background: linear-gradient(120deg, #ff9cd6, #c49cfb);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-sub);
+      line-height: 1.7;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h3 {
+      font-size: 15px;
+      margin-top: 14px;
+      margin-bottom: 6px;
+    }
+
+    p,
+    li {
+      font-size: 14px;
+      color: var(--text-sub);
+      line-height: 1.8;
+    }
+
+    ul {
+      padding-left: 16px;
+      margin-top: 4px;
+      margin-bottom: 6px;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    a {
+      color: var(--primary-deep);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight {
+      background: rgba(255, 245, 252, 0.95);
+      border-radius: 12px;
+      padding: 10px 12px;
+      border: 1px dashed #f5c2e2;
+      font-size: 13px;
+      color: var(--text-sub);
+      margin-top: 8px;
+    }
+
+    .link-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .pill-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border-soft);
+      background: rgba(255, 255, 255, 0.9);
+      font-size: 13px;
+      color: var(--text-sub);
+    }
+
+    .pill-link span {
+      color: var(--primary-deep);
+      margin-right: 4px;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-sub);
+      opacity: 0.85;
+    }
+
+    strong {
+      color: #5b476f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">
+        奶油日历 · 技术支持与帮助中心
+      </div>
+      <h1>你好，这里是奶油日历技术支持</h1>
+      <p class="subtitle">
+        感谢你使用 <strong>奶油日历</strong>。这里是应用相关的问题说明、常见问答以及联系方式。<br />
+        如果你在使用过程中遇到问题、发现 Bug，或者有任何改进建议，都可以在这里找到联系渠道。
+      </p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>一、关于奶油日历</h2>
+        <p>
+          奶油日历是一款主打 <strong>极简记录</strong> 与 <strong>高颜值日历海报</strong> 的工具应用。
+          你可以为每天记录一件最重要的小事，并生成整个月的漂亮日历图片，用来保存、分享或发朋友圈 / 小红书。
+        </p>
+        <div class="highlight">
+          设计理念：<br />
+          <strong>少一点压力，多一点好看。</strong><br />
+          不追求密密麻麻的待办，而是帮你定格每一天最重要的一件事。
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>二、常见问题（FAQ）</h2>
+
+        <h3>1. 为什么每天只能记录一件事情？</h3>
+        <p>
+          奶油日历的核心是 <strong>“一天一件小事”</strong>。这样可以让整个月的日历海报保持简洁、干净，
+          视觉上更舒服，也更适合分享和保存。如果你有更多计划，可以挑选最重要的一件，留给奶油日历来“定格”。
+        </p>
+
+        <h3>2. 生成的日历图片保存在哪里？</h3>
+        <p>
+          生成的月度日历海报会保存到你的设备相册（或系统文件中，视你选择的保存方式而定），
+          你可以直接用它发朋友圈、发小红书，或发送给朋友。
+        </p>
+
+        <h3>3. 是否需要注册账号？数据会不会上传到服务器？</h3>
+        <p>
+          当前版本主要以本地记录为主，我们不会主动上传你的日历内容。你可以在隐私政策中查看更详细的数据说明。
+        </p>
+
+        <h3>4. 我发现了显示问题或崩溃，该怎么办？</h3>
+        <p>
+          非常感谢你的反馈！你可以通过下面的联系邮箱，简单描述出现问题的页面和操作步骤，
+          如果方便的话，可以附上截图，这会非常有助于我们定位和修复问题。
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>三、隐私与条款</h2>
+        <p>
+          如果你想了解奶油日历如何处理你的数据、有哪些使用约定，可以查阅以下页面：
+        </p>
+        <div class="link-list">
+          <!-- 如果你放在同一目录，可以直接用相对路径 -->
+          <a class="pill-link" href="privacy.html">
+            <span>·</span>隐私政策
+          </a>
+          <a class="pill-link" href="terms.html">
+            <span>·</span>使用条款
+          </a>
+        </div>
+        <div class="highlight">
+          温馨提示：<br />
+          实际上架时，请确认 <code>privacy.html</code> 与 <code>terms.html</code> 文件路径正确，
+          如果你将它们放在其他目录，请相应修改上述链接地址。
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>四、联系开发者</h2>
+        <p>
+          如果你在使用过程中遇到任何问题，或者有功能建议、界面想法，欢迎随时联系开发者。
+        </p>
+        <p>
+          技术支持邮箱：<br />
+          <a href="mailto:liuhuohuo123@sina.com">liuhuohuo123@sina.com</a>
+        </p>
+        <p>
+          来信时，如果方便的话，你可以一并提供：
+        </p>
+        <ul>
+          <li>你使用的设备型号（例如：iPhone 15）；</li>
+          <li>系统版本（例如：iOS 18.x）；</li>
+          <li>奶油日历的版本号（可在 App 内设置 / 关于中查看）；</li>
+          <li>简单描述出现问题的步骤，如果有截图就更好啦。</li>
+        </ul>
+        <div class="highlight">
+          我们会尽力在合理时间内查看你的反馈，并在后续版本中持续优化体验。<br />
+          谢谢你愿意和奶油日历一起，把每一天都过得更好看一点。
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      奶油日历 · 技术支持页面<br />
+      最近更新日期：<span id="date"></span>
+    </footer>
+  </div>
+
+  <script>
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    document.getElementById("date").textContent = `${y}-${m}-${day}`;
+  </script>
+</body>
+</html>
